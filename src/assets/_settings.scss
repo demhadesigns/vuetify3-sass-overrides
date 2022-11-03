@@ -1,0 +1,13 @@
+@use 'vuetify/settings' with (
+  $font-size-root: 6px,
+  $body-font-family: 'Arial',
+  $grid-breakpoints: (
+    'xs': 0,
+    'sm': 800px,
+  ),
+  $typography: (
+    'h1': (
+      'size': 20px,
+    ),
+  )
+);
